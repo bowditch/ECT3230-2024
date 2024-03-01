@@ -65,7 +65,7 @@ public class DoorFeatures : CoreFeatures
 
     public void OpenDoor()
     {
-
+        //open = open ? false : true; //as ternary condition
         if (!open)
         {
             PlayOnStart();

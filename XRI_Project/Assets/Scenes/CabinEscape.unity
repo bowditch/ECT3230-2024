@@ -203,8 +203,8 @@ GameObject:
   - component: {fileID: 803321456}
   - component: {fileID: 803321455}
   - component: {fileID: 803321454}
-  - component: {fileID: 803321458}
   - component: {fileID: 803321459}
+  - component: {fileID: 803321458}
   m_Layer: 8
   m_Name: Drawer
   m_TagString: Untagged
@@ -444,12 +444,12 @@ MonoBehaviour:
   <AudioClipOnStart>k__BackingField: {fileID: 0}
   <AudioClipOnEnd>k__BackingField: {fileID: 0}
   featureUsage: 0
-  drawerSlide: {fileID: 0}
-  maxDistance: 1
+  drawerSlide: {fileID: 803321453}
+  maxDistance: -3
   featureDirection: 0
   open: 0
   speed: 1
-  simpleInteractable: {fileID: 0}
+  simpleInteractable: {fileID: 803321458}
 --- !u!1 &814395639
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,15 +773,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8911001974048909826, guid: c0d46b861365dc54a89f6e2a73861b4b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.06
       objectReference: {fileID: 0}
     - target: {fileID: 8911001974048909826, guid: c0d46b861365dc54a89f6e2a73861b4b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.321
       objectReference: {fileID: 0}
     - target: {fileID: 8911001974048909826, guid: c0d46b861365dc54a89f6e2a73861b4b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -4.7
       objectReference: {fileID: 0}
     - target: {fileID: 8911001974048909826, guid: c0d46b861365dc54a89f6e2a73861b4b, type: 3}
       propertyPath: m_LocalRotation.w
